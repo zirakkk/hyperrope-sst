@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Checkpoints - keep folder structure but ignore all model files
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.ckpt
+
+# Data - keep folder structure but ignore dataset files
+data/dataset/Houston/*.mat
+data/dataset/IndianPine/*.mat
+data/dataset/KSC/*.mat
+data/dataset/Pavia/*.mat
+data/dataset/PaviaCenter/*.mat
+data/dataset/Salinas/*.mat
+data/dataset/*/*.mat
+data/dataset/*/*.npy
+data/dataset/*/*.pkl
+
+# Results - keep folder structure but ignore result files
+results/1) IndianPine Best Models Results/*.json
+results/2) Pavia Best Models Results/*.json
+results/3) Houston Best Models Results/*.json
+results/4) KSC Best Models Results/*.json
+results/5) Salinas Best Model Results/*.json
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# OS
+Thumbs.db
+.DS_Store
+

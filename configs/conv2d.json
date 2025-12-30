@@ -1,0 +1,81 @@
+{
+    "common": {
+        "patch_size": 9,
+        "pca": 0,
+        "manualSeed": 531,
+        "random_seed": 5
+    },
+    "net": {
+        "trainer": "conv2d"
+    },
+    "train": {
+        "epochs": 200,
+        "patience": 50,
+        "lr": 0.001,
+        "weight_decay": 0
+    },
+    "datasets": {
+        "IndianPine": {
+            "data_sign": "IndianPine",
+            "data_file": "IndianPine",
+            "num_classes": 16,
+            "spectral_size": 200,
+            "batch_size": 40,
+            "padding": true
+        },
+        "Pavia": {
+            "data_sign": "Pavia",
+            "data_file": "Pavia",
+            "num_classes": 9,
+            "spectral_size": 103,
+            "batch_size": 65,
+            "padding": true
+        },
+        "Houston": {
+            "data_sign": "Houston",
+            "data_file": "Houston",
+            "num_classes": 15,
+            "spectral_size": 144,
+            "batch_size": 65,
+            "padding": true
+        },
+        "KSC": {
+            "data_sign": "KSC",
+            "data_file": "KSC",
+            "num_classes": 13,
+            "spectral_size": 145,
+            "batch_size": 30,
+            "padding": true
+        },
+        "Salinas": {
+            "data_sign": "Salinas",
+            "data_file": "Salinas",
+            "num_classes": 16,
+            "spectral_size": 204,
+            "batch_size": 40,
+            "padding": true
+        },
+        "Plastic": {
+            "data_sign": "Plastic",
+            "data_file": "Plastic_2400",
+            "num_classes": 13,
+            "spectral_size": 171,
+            "batch_size": 64,
+            "padding": false,
+            "matlab_files": [
+                "ABS_stacked_with_TR_VA_TE.mat",
+                "FAB_stacked_with_TR_VA_TE.mat",
+                "HDPE_stacked_with_TR_VA_TE.mat",
+                "LDPE_stacked_with_TR_VA_TE.mat",
+                "NYL_stacked_with_TR_VA_TE.mat",
+                "PET_stacked_with_TR_VA_TE.mat",
+                "PP_stacked_with_TR_VA_TE.mat",
+                "PS_stacked_with_TR_VA_TE.mat",
+                "PUR_stacked_with_TR_VA_TE.mat",
+                "PVC_stacked_with_TR_VA_TE.mat",
+                "RUB_stacked_with_TR_VA_TE.mat",
+                "TEF_stacked_with_TR_VA_TE.mat"
+            ]
+        }
+    }
+}
