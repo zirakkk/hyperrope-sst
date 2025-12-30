@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://doi.org/10.1109/JSTARS.2025.3643365"><img src="https://img.shields.io/badge/Paper-IEEE%20JSTARS%202025-blue" alt="Paper"></a>
 <a href="https://github.com/zirakkk/hyperrope-sst"><img src="https://img.shields.io/badge/Code-GitHub-black" alt="Code"></a>
-<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey" alt="License"></a>
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey" alt="License"></a>
 </p>
 
 <h3 align="center">Spatial-Spectral Transformer with Patch-Local Mixed-Axis 2D Rotary Position Embedding for Hyperspectral Image Classification [IEEE JSTARS 2025 🔥]</h3>
