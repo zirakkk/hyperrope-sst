@@ -328,7 +328,7 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial-S
 Looking forward to your feedback, contributions, and stars! 🌟
 
 <p align="center">
-    <img src="https://img.shields.io/github/stars/zirakkk/hyperrope-sst?style=social" alt="GitHub stars">
-    <img src="https://img.shields.io/github/forks/zirakkk/hyperrope-sst?style=social" alt="GitHub forks">
-    <img src="https://img.shields.io/github/watchers/zirakkk/hyperrope-sst?style=social" alt="GitHub watchers">
+    <img src="https://badgen.net/github/stars/zirakkk/hyperrope-sst" alt="GitHub stars">
+    <img src="https://badgen.net/github/forks/zirakkk/hyperrope-sst" alt="GitHub forks">
+    <img src="https://badgen.net/github/watchers/zirakkk/hyperrope-sst" alt="GitHub watchers">
 </p>
